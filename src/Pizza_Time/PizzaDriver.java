@@ -1,5 +1,7 @@
 package Pizza_Time;
-
+// This driver has random toppings being added to the pizza for convenience and ease of use.
+// This code, as well as the two files being used, could easily be altered to allow an interactive driver instead,
+// Where the user would be able to pick and choose specific toppings.
 public class PizzaDriver {
     public static void main(String[] args) {
 
