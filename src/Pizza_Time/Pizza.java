@@ -16,7 +16,7 @@ public class Pizza {
         this.chosenToppings = pizzaBuilder.chosenToppings;
     }
     public void eat(){
-        System.out.println("Pizza_Time.Pizza Chain: " + this.restaurantName);
+        System.out.println("Pizza Chain: " + this.restaurantName);
         System.out.println("Size: " + this.pizzaSize);
         System.out.print("Ingredients: ");
         for (String chosenTopping : this.chosenToppings) {
