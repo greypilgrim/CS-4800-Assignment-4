@@ -6,7 +6,7 @@ public class PizzaDriver {
     public static void main(String[] args) {
 
         // First three Pizza_Time.Pizza Hut pizzas
-        PizzaChain firstHut = new PizzaChain("Pizza_Time.Pizza Hut");
+        PizzaChain firstHut = new PizzaChain("Pizza Hut");
         Pizza small = firstHut.orderPizza("small", 3);
         Pizza medium = firstHut.orderPizza("medium", 6);
         Pizza large = firstHut.orderPizza("large", 9);
@@ -15,7 +15,7 @@ public class PizzaDriver {
         large.eat();
 
         // Create three different pizza chain restaurants and their pizzas
-        PizzaChain pizzaHut = new PizzaChain("Pizza_Time.Pizza Hut");
+        PizzaChain pizzaHut = new PizzaChain("Pizza Hut");
         Pizza pizzaHutLarge = pizzaHut.orderPizza("large", 3);
         Pizza pizzaHutSmall = pizzaHut.orderPizza("small", 2);
 
